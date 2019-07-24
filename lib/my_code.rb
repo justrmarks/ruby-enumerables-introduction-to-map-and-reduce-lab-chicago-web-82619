@@ -73,7 +73,7 @@ def reduce_to_all_true(source_array)
   return result
 end
 
-def reduce_to_any_true
+def reduce_to_any_true(source_array)
   result = FALSE
   i=0
   while i<source_array.length do
