@@ -48,11 +48,7 @@ end
 
 def reduce_to_total(source_array, starting_point)
   
-  if (!!starting_point) then
-  result = starting_point 
-  else 
-    result = 0
-  end
+  result = starting_point || 0
   
 
   i=0
