@@ -48,11 +48,13 @@ end
 
 def reduce_to_total(source_array, starting_point)
   
-  if (!!starting_point) do
+  if (!!starting_point) then
   result = starting_point 
-else {
+  else 
+    result = 0
+  end
   
-}
+
   i=0
   while i<source_array.length do
     result+= source_array[i]
