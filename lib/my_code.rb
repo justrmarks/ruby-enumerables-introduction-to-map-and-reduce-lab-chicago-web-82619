@@ -2,12 +2,12 @@
 
 def map_to_negativize(source_array) 
   result = []
-  
-  for i in source_array {
-    result.push(source_array[i]*-1)
-    
-  }
-  
+   i=0
+   while i<source_array.length do 
+     result.push(source_array[i]*-1)
+     i+= 1
+   end
+   
   return result
 end
 
